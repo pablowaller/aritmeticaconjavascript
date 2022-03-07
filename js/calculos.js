@@ -48,7 +48,8 @@ function sucesionDeFibonacci() {
     }
 };
 
-// iOS detection from: stackoverflow.com/a/9039885 with explanation about MSStream
+// Algoritmo para la funcionalidad del input type number en dispositivos móviles
+
 if(/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream)
 {
     var inputs = document.querySelectorAll('input[type="number"]');
