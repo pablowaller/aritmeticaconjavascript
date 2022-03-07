@@ -47,3 +47,11 @@ function sucesionDeFibonacci() {
         $('#res3').html(`<h2 style='color: #064A86;'>La posición ${num} se trata del número ${fib(num)} de la sucesión.</h2>`)
     }
 };
+
+// iOS detection from: stackoverflow.com/a/9039885 with explanation about MSStream
+if(/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream)
+{
+    var inputs = document.querySelectorAll('input[type="number"]');
+    for(var i = inputs.length; i--;)
+        inputs[i].setAttribute('pattern', '\\d*');
+}
