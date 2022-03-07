@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Aritmética con Javascript</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+</head>
+
+<body>
+    <header style="padding-top: 1%;">
+        <h1 class="title">
+            <img src="img/Aritmetica.png" id="logos">
+            <strong>Aritmética con JavaScript</strong>
+            <img src="img/javascript.png" id="logos">
+        </h1>
+    </header>
+    <section>
+        <br>
+        <h2>SUMATORIO</h2>
+        <br>
+        <br>
+        <img src="./img/Sigma.png" id="letter">
+        <br>
+        <h2>El Sumatorio, también conocido como notación sigma, es un operador matemático
+            que permite representar sumas de muchos sumandos, n o incluso infinitos sumandos. Se expresa con la
+            letra griega sigma Σ, y se define como: Esto se lee: «sumatorio sobre i, desde m hasta n, de x
+            sub-i».</h2>
+        <br>
+        <h2 id="res-1"></h2>
+        <img src="./img/Pi.png" id="letter">
+        <br>
+        <br>
+        <h2>PRODUCTORIO</h2>
+        <br>
+        <h2>El Productorio, también conocido como multiplicatorio o producto Pi,
+            es una notación matemática que representa una multiplicación de una cantidad arbitraria (finita
+            o infinita) y se expresa con la letra griega pi mayúscula Π.</h2>
+        <br>
+        <br>
+        <h2 id="res-2"></h2>
+        <br>
+        <br>
+        <h2>Tal como se ve, solo se trata de ciclos/bucles for loops una vez traducidos a
+            cualquier lenguaje de programación.</h2>
+        <br>
+        <img src="./img/Algoritmos.png">
+        <br>
+        <br>
+        <h2>SUCESIÓN DE FIBONACCI</h2>
+        <br>
+        <h2>En matemáticas, la sucesión o serie de Fibonacci es la siguiente sucesión infinita de números naturales:
+        </h2>
+        <br>
+        <img src="./img/Sucesion.jpg">
+        <br>
+        <br>
+        <h2>La sucesión comienza con los números 0 y 1; a partir de estos, “cada término es la suma de los dos
+            anteriores”, es la relación de recurrencia que la define.</h2>
+        <br>
+        <img src="./img/AlgoritmoDeFibonacci.jpg">
+        <br>
+        <br>
+        <h2>A los elementos de esta sucesión se les llama hijos de Fibonacci. Esta sucesión fue descrita en Europa
+            por Leonardo de Pisa, matemático italiano del siglo XIII también conocido como Fibonacci. Tiene
+            numerosas aplicaciones en ciencias de la computación, matemática y teoría de juegos. También aparece en
+            configuraciones biológicas, como por ejemplo en las ramas de los árboles, en la disposición de los
+            pétalos u hojas en las flores y tallos respectivamente, en las flores de alcachofas y girasoles, en las
+            inflorescencias del brécol romanesco, en la configuración de las piñas de las coníferas, en la
+            reproducción de los conejos y en cómo el ADN codifica el crecimiento de formas orgánicas complejas. De
+            igual manera, se encuentra en la estructura espiral del caparazón de algunos moluscos, la espiral de una
+            galaxia en el universo, por nombrar solo algunos entre cientos de ejemplos..</h2>
+        <br>
+        <div style="display: flex; flex-direction:row">
+            <img src="./img/Fibonacci.jpg" style="width: 35%">
+            <img src='./img/Espiral.jpg' style="width: 60%">
+        </div>
+        <br>
+        <br>
+        <h2>Ingrese una posición y le dirá a cuál número de la sucesión de Fibonacci corresponde.</h2>
+        <br>
+        <input type="number" min='0' style="width: 5em" id="number">
+        <input type="submit" id="boton3" onclick="sucesionDeFibonacci()">
+        <br>
+        <br>
+        <div id="res3">
+            <h2 id="res3"></h2>
+        </div>
+        <br>
+        <br>
+    </section>
+    <br>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="./js/calculos.js"></script>
+    <script>
+
+        $("h1").fadeOut("slow", function () {
+            $("h1").fadeIn(2500);
+        });
+
+    </script>
+</body>
+
+</html>
