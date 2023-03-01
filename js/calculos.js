@@ -13,7 +13,7 @@ function sumatorioSigma() {
 
     for (n = 0; n <= 4; n++) {
         sum += 3 * n;
-        return sum
+        console.log(sum)
     }
 
     
